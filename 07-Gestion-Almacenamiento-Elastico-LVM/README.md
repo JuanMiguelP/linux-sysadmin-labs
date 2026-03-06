@@ -15,7 +15,7 @@ Este módulo implementa una solución de almacenamiento elástico sobre Ubuntu S
 ### 1. Inicialización de Almacenamiento
 Se preparó el nuevo dispositivo de bloques para integrarlo en la estructura de gestión lógica:
 
-* **Comando**: `sudo pvcreate /dev/sdb && sudo vgcreate vg_servidor /dev/sdb`
+* **Comando**: `sudo pvcreate /dev/sdb && sudo vgcreate vg_servidor /dev/vdb`
 
 ### 2. Creación de Volumen Lógico
 Se asignó espacio dedicado para datos críticos del servidor:
@@ -30,4 +30,3 @@ Validación de la capacidad de expansión del volumen para entornos de alta disp
 
 * `LÉAME.md` : Documentación técnica del proyecto.
 * `verificacion.txt` : Registro de la jerarquía LVM (pvs, vgs, lvs).
-* `PRUEBAS.md` : Evidencia del proceso de expansión de capacidad.:wq

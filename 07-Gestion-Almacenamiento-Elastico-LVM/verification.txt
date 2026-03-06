@@ -1,0 +1,25 @@
+  P         VG          Fmt  Attr PSize   PFree 
+  /dev/vda3  ubuntu-vg   lvm2 a--  <48,00g 24,00g
+  /dev/vdb   vg_servidor lvm2 a--  <10,00g <5,00g
+  VG          #PV #LV #SN Attr   VSize   VFree 
+  ubuntu-vg     1   1   0 wz--n- <48,00g 24,00g
+  vg_servidor   1   1   0 wz--n- <10,00g <5,00g
+  LV        VG          Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  ubuntu-lv ubuntu-vg   -wi-ao---- <24,00g                                                    
+  lv_datos  vg_servidor -wi-ao----   5,00g                                                    
+--- VERIFICACIÓN FINAL DE ALMACENAMIENTO ELÁSTICO ---
+
+[1] Physical Volumes:
+  PV         VG          Fmt  Attr PSize   PFree 
+  /dev/vda3  ubuntu-vg   lvm2 a--  <48,00g 24,00g
+  /dev/vdb   vg_servidor lvm2 a--  <10,00g <3,00g
+
+[2] Volume Groups:
+  VG          #PV #LV #SN Attr   VSize   VFree 
+  ubuntu-vg     1   1   0 wz--n- <48,00g 24,00g
+  vg_servidor   1   1   0 wz--n- <10,00g <3,00g
+
+[3] Logical Volumes (Final Size):
+  LV        VG          Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  ubuntu-lv ubuntu-vg   -wi-ao---- <24,00g                                                    
+  lv_datos  vg_servidor -wi-ao----   7,00g                                                    
