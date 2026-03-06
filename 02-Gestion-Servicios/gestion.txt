@@ -1,0 +1,21 @@
+________ESTADO INICIAL________
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-02-22 03:58:37 UTC; 16min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 2328 (apache2)
+      Tasks: 55 (limit: 6978)
+     Memory: 5.5M (peak: 6.3M)
+        CPU: 72ms
+     CGroup: /system.slice/apache2.service
+             ├─2328 /usr/sbin/apache2 -k start
+             ├─2331 /usr/sbin/apache2 -k start
+             └─2332 /usr/sbin/apache2 -k start
+
+feb 22 03:58:37 serverpruebas systemd[1]: Starting apache2.service - The Apache HTTP Server...
+feb 22 03:58:37 serverpruebas apachectl[2326]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.1.13. Set the 'ServerName' directive globally to suppress this message
+feb 22 03:58:37 serverpruebas systemd[1]: Started apache2.service - The Apache HTTP Server.
+___ESTADO TRAS CONFIGURAR Y REINICIAR___
+active
+___CONTENIDO DEL SERVIDOR ACTUALIZADO___
+Servidor Industrial v1.01

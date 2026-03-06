@@ -1,6 +1,6 @@
 # Diagnóstico de Red y Conectividad - Servidor Linux
 
-Este ejercicio documenta las tareas de verificación de red y resolución de incidencias (troubleshooting) realizadas para asegurar la comunicación del servidor en un entorno de red local e internet.
+Este módulo documenta las tareas de verificación de red y resolución de incidencias (troubleshooting) realizadas para asegurar la comunicación del servidor en un entorno de red local e internet.
 
 ## Descripción del Escenario
 Como administrador de sistemas, se requiere validar la configuración de red del servidor tras una actualización de infraestructura, asegurando que el direccionamiento IP sea correcto y que exista conectividad con el Gateway y servicios externos.
