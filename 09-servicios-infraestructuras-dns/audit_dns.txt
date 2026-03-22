@@ -1,0 +1,5 @@
+---Validación de Zona ---
+zone empresa.int/IN: loaded serial 2
+OK
+---Estado del Servicio ---
+active

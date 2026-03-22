@@ -1,0 +1,15 @@
+;
+; BIND data file for empresa.int
+;
+$TTL	604800
+@	IN	SOA	ns1.empresa.int. admin.empresa.int. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns1.empresa.int.
+ns1	IN	A	192.168.1.50
+servidor IN	A	192.168.1.50
+www	IN	A	192.168.1.50
