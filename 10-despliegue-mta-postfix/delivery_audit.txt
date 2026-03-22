@@ -1,0 +1,7 @@
+2026-03-22T16:02:19.412481+00:00 serverpruebas postfix/postfix-script[7269]: starting the Postfix mail system
+2026-03-22T16:02:19.415955+00:00 serverpruebas postfix/master[7271]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-22T16:07:52.591276+00:00 serverpruebas postfix/pickup[7272]: 9048DE079F: uid=1000 from=<juanmi@serverpruebas>
+2026-03-22T16:07:52.594622+00:00 serverpruebas postfix/cleanup[7919]: 9048DE079F: message-id=<20260322160752.9048DE079F@serverpruebas.home>
+2026-03-22T16:07:52.595826+00:00 serverpruebas postfix/qmgr[7273]: 9048DE079F: from=<juanmi@serverpruebas>, size=374, nrcpt=1 (queue active)
+2026-03-22T16:07:52.600135+00:00 serverpruebas postfix/local[7921]: 9048DE079F: to=<juanmi@empresa.int>, orig_to=<root>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+2026-03-22T16:07:52.600189+00:00 serverpruebas postfix/qmgr[7273]: 9048DE079F: removed

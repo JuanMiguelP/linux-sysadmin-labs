@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> @127.0.0.1 empresa.int MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21396
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: ee26b7424b5bdc870100000069c017599e23a5e45f538e3e (good)
+;; QUESTION SECTION:
+;empresa.int.			IN	MX
+
+;; ANSWER SECTION:
+empresa.int.		604800	IN	MX	10 mail.empresa.int.
+
+;; ADDITIONAL SECTION:
+mail.empresa.int.	604800	IN	A	192.168.1.50
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1) (UDP)
+;; WHEN: Sun Mar 22 16:22:49 UTC 2026
+;; MSG SIZE  rcvd: 105
+

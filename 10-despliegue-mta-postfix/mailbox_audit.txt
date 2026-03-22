@@ -1,0 +1,18 @@
+"/var/mail/juanmi": 1 mensaje 1 nuevo
+>N   1 Juanmi             dom mar 22 16:07  13/451   Test Root Alias
+Return-Path: <juanmi@serverpruebas>
+X-Original-To: root
+Delivered-To: root@empresa.int
+Received: by serverpruebas.home (Postfix, from userid 1000)
+	id 9048DE079F; Sun, 22 Mar 2026 16:07:52 +0000 (UTC)
+Subject: Test Root Alias
+To: root@empresa.int
+User-Agent: mail (GNU Mailutils 3.17)
+Date: Sun, 22 Mar 2026 16:07:52 +0000
+Message-Id: <20260322160752.9048DE079F@serverpruebas.home>
+From: Juanmi <juanmi@serverpruebas>
+
+prueba de redirección de alias
+
+1 mensaje guardado en /home/juanmi/mbox
+0 mensajes retenidos en /var/mail/juanmi
